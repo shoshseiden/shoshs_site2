@@ -15,8 +15,8 @@ export default {
   data(){
     return{
       site_links: [
-        {name: 'Pachyderm Publishing', url: 'pachydermpublishing.com'},
-        {name: 'C.A. Griggs Books', url: 'cagriggsbooks.com'}
+        {name: 'Pachyderm Publishing', url: 'http://www.pachydermpublishing.com'},
+        {name: 'C.A. Griggs Books', url: 'http://www.cagriggsbooks.com'}
       ]
     }
   }
