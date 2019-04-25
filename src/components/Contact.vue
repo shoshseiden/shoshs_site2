@@ -3,7 +3,7 @@
   <h1>Contact</h1>
   <ul>
     <li>Phone: {{ phone }}</li>
-    <li>Email: {{ email }}</li>
+    <li>Email: <a v-bind:href="`mailto:${email}`">{{ email }}</a></li>
   </ul>
 </div>
 </template>
