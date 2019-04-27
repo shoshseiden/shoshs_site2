@@ -1,9 +1,9 @@
 <template>
-<div>
+<div id="contact">
   <h1>Contact</h1>
   <ul>
-    <li>Phone: {{ phone }}</li>
-    <li>Email: <a v-bind:href="`mailto:${email}`">{{ email }}</a></li>
+    <p>Phone: {{ phone }}</p>
+    <p>Email: <a v-bind:href="`mailto:${email}`">{{ email }}</a></p>
   </ul>
 </div>
 </template>
@@ -19,6 +19,18 @@ export default{
  }
 }
 </script>
-
+  #contact{
+    background: black;
+    border-style: solid;
+    border-color: gray;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+  }
+  a:hover{
+    color: gray;
+  }
+  h1, h2, h3, a, p {
+    color: #08d12d;
+  }
 <style>
 </style>

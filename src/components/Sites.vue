@@ -1,5 +1,5 @@
 <template>
-<div>
+<div id="sites">
   <h1>Sites</h1>
   <ul>
     <li v-for="site_link in site_links">
@@ -24,4 +24,20 @@ export default {
 </script>
 
 <style>
+  #sites{
+    background: black;
+    border-style: solid;
+    border-color: gray;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    a{
+      color: #08d12d;
+    }
+  }
+  h1, h2, h3, a, p {
+    color: #08d12d;
+  }
+  a:hover{
+    color: gray;
+  }
 </style>
