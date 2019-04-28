@@ -2,18 +2,33 @@
   <div>
     <div id="intro">
       <h1>SJSeiden's Websites</h1>
+      <p>{{ message }}</p>
     </div>
 
     <br>
-    
+
     <div id="home-nav">
+      <h2>Links</h2>
+      <ul v-for="link in links">
+        <a v-bind:href="link.url">{{ link.name}}</a>
+      </ul>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  data(){
+    return{
+      message: "Welcome to my online portfolio. Feel free to explore the websites I've created.",
+      links: [
+        {name: 'Web Sites', url: 'sites.html'},
+        {name: 'Skills', url: 'skills.html'},
+        {name: 'Contact Information', url: 'contact.html'}
+      ]
+    }
+  }
 }
 </script>
 

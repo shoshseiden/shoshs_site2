@@ -40,4 +40,7 @@ export default {
   a:hover{
     color: gray;
   }
+  li{
+    list-style-type: none;
+  }
 </style>
