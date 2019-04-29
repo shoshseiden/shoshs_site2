@@ -18,7 +18,9 @@ export default{
   }
  }
 }
+
 </script>
+<style>
   #contact{
     background: black;
     border-style: solid;
@@ -32,5 +34,4 @@ export default{
   h1, h2, h3, a, p {
     color: #08d12d;
   }
-<style>
 </style>
