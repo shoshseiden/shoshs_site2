@@ -1,18 +1,18 @@
 <template>
   <div>
-    <div id="intro">
-      <h1>SJSeiden's Websites</h1>
-      <p>{{ message }}</p>
+    <div id=intro>
+      <h1>Shosh's Websites</h1>
+      <p>{{ intro_message }}</p>
     </div>
   </div>
 </template>
 
 <script>
-export default {
+export default{
   name: 'Home',
-  data(){
-    return{
-      message: "Welcome to my online portfolio. Feel free to explore the websites I've created."
+  data() {
+    return {
+      intro_message: "My name is Shosh Seiden and I am an up and coming web developer. Please check out the sites I've developed."
     }
   }
 }
