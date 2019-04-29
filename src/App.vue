@@ -17,6 +17,7 @@ export default {
 
 <style>
 #app {
-  background-image: url('assets/html_img.png');
+background-image: url('assets/html_img.png');
+
 }
 </style>

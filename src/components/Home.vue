@@ -4,14 +4,6 @@
       <h1>SJSeiden's Websites</h1>
       <p>{{ message }}</p>
     </div>
-
-    <br>
-
-    <div id="home-nav">
-      <h2>Links</h2>
-      <ul v-for="link in links">
-        <a v-bind:href="link.url">{{ link.name}}</a>
-      </ul>
     </div>
   </div>
 </template>
@@ -21,12 +13,7 @@ export default {
   name: 'Home',
   data(){
     return{
-      message: "Welcome to my online portfolio. Feel free to explore the websites I've created.",
-      links: [
-        {name: 'Web Sites', url: 'sites.html'},
-        {name: 'Skills', url: 'skills.html'},
-        {name: 'Contact Information', url: 'contact.html'}
-      ]
+      message: "Welcome to my online portfolio. Feel free to explore the websites I've created."
     }
   }
 }
@@ -37,13 +24,6 @@ export default {
     background: black;
     border-style: solid;
     border-color: gray;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-  }
-  #home-nav{
-    background-color: black;
-    border-color: gray;
-    border-style: solid;
     opacity: 0.5;
     filter: alpha(opacity=50);
   }
