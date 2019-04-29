@@ -13,26 +13,21 @@ export default{
       links: [
         {
           id: 0,
-          text: 'Hello World',
-          page: '/HelloWorld'
-        },
-        {
-          id: 1,
           text: 'Home',
           page: '/Home'
         },
         {
-          id: 2,
+          id: 1,
           text: 'Sites',
           page: '/Sites'
         },
         {
-          id: 3,
+          id: 2,
           text: 'Contact',
           page: '/Contact'
         },
         {
-          id: 4,
+          id: 3,
           text: 'Skills',
           page: '/Skills'
         }

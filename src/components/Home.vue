@@ -4,7 +4,6 @@
       <h1>SJSeiden's Websites</h1>
       <p>{{ message }}</p>
     </div>
-    </div>
   </div>
 </template>
 
