@@ -28,8 +28,8 @@ export default {
     background: black;
     border-style: solid;
     border-color: gray;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
+    opacity: 0.75;
+    filter: alpha(opacity=75);
     a{
       color: #08d12d;
     }

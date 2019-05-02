@@ -31,8 +31,8 @@ export default {
     background: black;
     border-style: solid;
     border-color: gray;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
+    opacity: 0.75;
+    filter: alpha(opacity=75);
   }
   h1, h2, h3, a, p, li {
     color: #08d12d;
