@@ -1,15 +1,11 @@
 <template>
 <div id="sites">
   <h1>Sites</h1>
-  <div class="grid-container">
     <ul>
-      <div class="grid-item">
       <li v-for="site_link in site_links">
         <a v-bind:href="site_link.url">{{site_link.name}}</a>
       </li>
-      </div>
     </ul>
-  </div>
 </div>
 </template>
 
