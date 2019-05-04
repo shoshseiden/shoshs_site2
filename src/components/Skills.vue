@@ -39,5 +39,6 @@ export default {
   }
   a:hover{
     color: gray;
+    font-size: 20px;
   }
 </style>

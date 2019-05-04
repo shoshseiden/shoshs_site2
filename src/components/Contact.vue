@@ -30,6 +30,7 @@ export default{
   }
   a:hover{
     color: gray;
+    font-size: 20px;
   }
   h1, h2, h3, a, p {
     color: #08d12d;
