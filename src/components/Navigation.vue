@@ -15,7 +15,7 @@ export default{
           id: 0,
           text: 'Welcome',
           page: '/'
-        }
+        },
         {
           id: 1,
           text: 'Home',
