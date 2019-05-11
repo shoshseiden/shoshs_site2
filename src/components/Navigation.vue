@@ -13,7 +13,7 @@ export default{
       links: [
         {
           id: 0,
-          text: 'Welcome'
+          text: 'Welcome',
           page: '/'
         }
         {
